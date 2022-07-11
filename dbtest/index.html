@@ -1,0 +1,13 @@
+<table class="table-contents" style = "padding:10px">
+    <tr>
+        <th>제목</th>
+        <th>내용</th>
+    </tr>
+    {% for item in items %}
+        <tr>
+            <td>{{item.item_id}}</td>
+            <td>{{item.quality_score}}</td>
+            <td>{{item.delivery_score}}</td>
+            <td>{{item.size_score}}</td>
+        </tr>
+</table>
