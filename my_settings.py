@@ -2,9 +2,9 @@ DATABASES = {
     'default' : {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sinsahelper',
-        'USER': 'root',
-        'PASSWORD': 'race1020',
-        'HOST': '127.0.0.1',
+        'USER': 'woozxn',
+        'PASSWORD': '05250525wls!',
+        'HOST': 'database-1.cckxyeosdtff.ap-northeast-2.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
