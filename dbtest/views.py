@@ -28,6 +28,11 @@ def connect2(request):
     return Response("OK")
 
 @api_view(['GET'])
+def crawl(request):
+    key = request.GET.get('url',None)
+    return Response(key)
+
+@api_view(['GET'])
 def connect(request):
     # print(request)
     key = request.GET.get('item_id',None)
